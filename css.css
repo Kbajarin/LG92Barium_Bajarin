@@ -1,0 +1,32 @@
+#imge{
+    width:100px;
+    height:100px;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border:3px white solid;
+    transform: translate(-50%, -50%);
+}
+.center{
+    position:relative;
+}
+.background{
+    background-color: black;
+}
+#button1, #button2 {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+}
+
+#button1 {
+    left:25%;
+}
+#button2{
+    right:25%;
+}
